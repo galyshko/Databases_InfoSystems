@@ -168,7 +168,7 @@ LIMIT 1;
 
 
 
--- Клієнт, що зробив найменшу кількість покупок
+-- -- Продукти з найменшою кількістю продажів
 SELECT p.id, p.name, COUNT(oi.id) as order_count
 FROM Products p
 LEFT JOIN OrderItems oi ON p.id = oi.product_id
