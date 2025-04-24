@@ -13,11 +13,6 @@ SELECT * FROM products;
 -- Вибірка всіх доствок
 SELECT * FROM deliveries;
 
---Отримуємо назву товару, кількість у поставці та дату, приєднуючи products до deliveries
-SELECT p.name, d.delivered_quantity, d.delivery_date
-FROM deliveries d
-JOIN products p ON d.product_id = p.product_id;
-
 -- Вибірка з фільтрацією, наприклад, постачальники з конкретним номером телефону
 SELECT * FROM suppliers WHERE phone = 1234567890;
 
@@ -59,7 +54,7 @@ SELECT * FROM deliveries;
 DELETE FROM suppliers
 WHERE supplier_id = 5;
 
--- Видалення всіх постачальників, у яких номер телефону починається з 234
+-- Видалення всіх постачальників, у яких номер телефону починається з 345
 DELETE FROM suppliers
 WHERE CAST(phone AS TEXT) LIKE '345%';
 
