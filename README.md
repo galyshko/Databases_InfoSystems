@@ -10,25 +10,25 @@
 
 1. **Встановлення MongoDB**
 
-[Встановлення MongoDB](img/image.png)
+![Встановлення MongoDB](img/image.png)
 
 2. **Встановлення MongoDB Compass**
 
-[Встановлення MongoDB Compass](img/image1.png)
+![Встановлення MongoDB Compass](img/image1.png)
 
 3. **Встановлення MongoDB Shell**
 
-[Встановлення MongoDB Shell](img/image2.png)
+![Встановлення MongoDB Shell](img/image2.png)
 
 4. **Створення нової колекції у mongosh**
 
-[Створення колекції](img/image3.png)
+![Створення колекції](img/image3.png)
 
 6. **Основний синтаксис для роботи у mongosh**
 
 Перегляд існуючих баз даних:
 
-[Перегляд існуючих баз даних](img/image4.png)
+![Перегляд існуючих баз даних](img/image4.png)
 
 Створення колекції:
 
@@ -36,7 +36,7 @@
 
 Перегляд існуючих колекцій:
 
-[Перегляд існуючих колекцій:](img/image6.png)
+![Перегляд існуючих колекцій:](img/image6.png)
 
 Вставка документа:
 
